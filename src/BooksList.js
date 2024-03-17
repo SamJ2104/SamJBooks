@@ -28,7 +28,7 @@ class BooksList extends Component {
           <p className="book-author">{author}</p>
           <a
             className="download"
-            href={`http://libgen.io/get.php?md5=${book.md5.toLowerCase()}`}
+            href={`http://libgen.rs/get.php?md5=${book.md5.toLowerCase()}`}
           >
             Download
           </a>
