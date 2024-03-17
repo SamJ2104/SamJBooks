@@ -26,7 +26,7 @@ class Main extends Component {
     });
 
     let options = {
-      mirror: "https://cors-anywhere.herokuapp.com/http://libgen.io",
+      mirror: "https://whitmorehigh.netlify.app/?destination=http://libgen.rs",
       query: userInput,
       count: 10
     };
